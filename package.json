@@ -1,5 +1,5 @@
 {
-  "name": "jsstackenv",
+  "name": "wetherapplication",
   "version": "1.0.0",
   "description": "new boilerplate",
   "main": "index.js",
@@ -10,6 +10,9 @@
     "prod": "rimraf dist && webpack --config config/webpack/prod.js && ./node_modules/babel-cli/bin/babel-node.js index.js"
   },
   "devDependencies": {
+
+  },
+  "dependencies": {
     "babel-loader": "^7.0.0",
     "css-loader": "^0.28.0",
     "extract-text-webpack-plugin": "^2.1.0",
@@ -20,9 +23,7 @@
     "stylus-loader": "^3.0.1",
     "webpack": "^2.7.0",
     "webpack-dev-middleware": "^1.10.2",
-    "webpack-hot-middleware": "^2.18.0"
-  },
-  "dependencies": {
+    "webpack-hot-middleware": "^2.18.0",
     "autoprefixer-stylus": "^0.14.0",
     "axios": "^0.17.0",
     "axis": "^1.0.0",
